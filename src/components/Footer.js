@@ -25,8 +25,8 @@ const Footer = () => {
             <h4>PlaceHolder</h4>
             <p>PlaceHolder</p>
             <div className="social">
-                <FaGithub size={30} style={{color:"#fff", marginRight:"1rem"}} />
-                <FaLinkedin size={30} style={{color:"#fff", marginRight:"1rem"}} />
+               <a href = "https://github.com/GovernorBrown" target="_blank" rel="noreferrer"> <FaGithub size={30} style={{color:"#fff", marginRight:"1rem"}}/> </a>
+                <a href = "https://www.linkedin.com/in/governor-brown-5661801b8/" target="_blank" rel="noreferrer"><FaLinkedin size={30} style={{color:"#fff", marginRight:"1rem"}} /></a>
             </div>
         </div>
     </div>

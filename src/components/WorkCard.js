@@ -1,6 +1,6 @@
 import "./WorkCardStyles.css";
 import React from 'react'
-import { NavLink } from "react-router-dom";
+import { NavLink, } from "react-router-dom";
 import complex from "../assets/complex.png";
 import thinkbeyond from "../assets/ThinkBeyond.png"
 import nobleshop from "../assets/nobleshop.png";
@@ -16,9 +16,9 @@ const WorkCard = () => {
                 <div className="pro-details">
                     <p>Project met to redesign Complex's Website; incorporating new style elements.</p>
                     <div className="pro-btns">
-                        <NavLink to="" className="btn">View</NavLink>
+                        <a href="http://complex-redesign.s3-website-us-east-1.amazonaws.com/" className="btn" rel="noreferrer">View</a>
                    
-                        <NavLink to="" className="btn">Source</NavLink>
+                        <a href="https://github.com/manorrington/G9-Redesign" className="btn" rel="noreferrer">Source</a>
                     </div>
                 </div>
             </div>
@@ -30,9 +30,9 @@ const WorkCard = () => {
                 <div className="pro-details">
                     <p>Incorporated 3rd Party API to solve educational disparity amongst low income communities</p>
                     <div className="pro-btns">
-                        <NavLink to="" className="btn">View</NavLink>
+                    <a href="https://thinkbeyond.herokuapp.com/" className="btn" target="_blank" rel="noreferrer">View </a>
                    
-                        <NavLink to="" className="btn">Source</NavLink>
+                        <a href="https://github.com/Nothier96/hopehack-1"  className="btn" rel="noreferrer">Source</a>
                     </div>
                 </div>
             </div>
@@ -46,7 +46,7 @@ const WorkCard = () => {
                     <div className="pro-btns">
                         <NavLink to="" className="btn">View</NavLink>
                    
-                        <NavLink to="" className="btn">Source</NavLink>
+                        <a href="https://github.com/GovernorBrown/Ecommerce2/tree/master" className="btn" rel="noreferrer">Source</a>
                     </div>
                 </div>
             </div>
