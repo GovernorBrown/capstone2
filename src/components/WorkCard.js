@@ -18,7 +18,7 @@ const WorkCard = () => {
                     <div className="pro-btns">
                         <a href="http://complex-redesign.s3-website-us-east-1.amazonaws.com/" className="btn" rel="noreferrer">View</a>
                    
-                        <a href="https://github.com/manorrington/G9-Redesign" className="btn" rel="noreferrer">Source</a>
+                        <a href="https://github.com/manorrington/G9-Redesign" className="btn" target="_blank" rel="noreferrer">Source</a>
                     </div>
                 </div>
             </div>
